@@ -3,5 +3,4 @@ requests
 pandas
 mysql-connector-python
 bcrypt
-base64
 datetime
