@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
 import base64
-from verify import verify_staff_login # your custom verification
+from staff_verify import verify_staff_login # your custom verification
 from stu_verify import verify_student_login # simple student verification
 from staff_dashboard import show_staff_dashboard  # staff dash board
-from student_dashboard import show_student_dashboard #student dash board
+from stu_dashboard import show_student_dashboard #student dash board
 
 
 
